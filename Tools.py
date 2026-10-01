@@ -2,16 +2,6 @@ import pandas as pd
 import datetime
 import time
 
-'''
-Staff Performance - 
-
-
-Executive Summary Method: Summary_Data() +
-Best_Days: Peak Hours: +
-Search_Bills: By date,time,staff,money +
-Display: +
-'''
-
 
 def Read_Data():
     data = pd.read_csv("data/restaurant_data_large.csv")
@@ -35,7 +25,7 @@ def columns_Data():
     # 1. الترويسة وعدد الأسطر والأعمدة
     output = (
         f"\n----------------------------------------\n"
-        f"        📊 DATASET STRUCTURE OVERVIEW   \n"
+        f"         DATASET STRUCTURE OVERVIEW   \n"
         f"----------------------------------------\n"
         f"+ Total Records (Rows) : {len(data)}\n"
         f"+ Total Features (Cols): {len(data.columns)}\n"
