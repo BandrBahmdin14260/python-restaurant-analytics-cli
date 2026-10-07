@@ -1,8 +1,6 @@
 import pandas as pd
 import time
 
-<<<<<<< HEAD
-=======
 from rich.console import Console
 from rich.table import Table
 from rich import box
@@ -10,7 +8,6 @@ from rich.panel import Panel
 
 console = Console(force_terminal=True)
 
->>>>>>> cc18c47 (Add UI and colors using Rich)
 
 def Read_Data():
     data = pd.read_csv("restaurant_data_large.csv")
@@ -31,18 +28,6 @@ def get_Anything(order: str):
 def columns_Data():
     data = Read_Data()
 
-<<<<<<< HEAD
-    # 1. الترويسة وعدد الأسطر والأعمدة
-    output = (
-        f"\n----------------------------------------\n"
-        f"         DATASET STRUCTURE OVERVIEW   \n"
-        f"----------------------------------------\n"
-        f"+ Total Records (Rows) : {len(data)}\n"
-        f"+ Total Features (Cols): {len(data.columns)}\n"
-        f"----------------------------------------\n"
-        f"{'Column Name':<20} | {'Type':<10} \n"
-        f"----------------------------------------\n"
-=======
     table = Table(title="DATASET STRUCTURE OVERVIEW", box=box.ROUNDED, border_style="cyan")
     table.add_column("Column Name", style="bold white", justify="left")
     table.add_column("Type", style="yellow", justify="center")
@@ -55,7 +40,6 @@ def columns_Data():
         f"[bold cyan]Total Features (Cols):[/bold cyan] [white]{len(data.columns)}[/white]",
         border_style="cyan",
         expand=False
->>>>>>> cc18c47 (Add UI and colors using Rich)
     )
 
     console.print("\n")
