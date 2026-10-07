@@ -4,7 +4,7 @@ import time
 
 
 def Read_Data():
-    data = pd.read_csv("data/restaurant_data_large.csv")
+    data = pd.read_csv("restaurant_data_large.csv")
     return data
 
 
