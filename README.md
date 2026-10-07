@@ -7,14 +7,14 @@ It helps track sales revenue, find peak hours, monitor staff activity, and catch
 ## 📌 Features
 
 * **Data Overview:** Quick summary of dataset size, columns, and data types.  
-![Options][Options.jpg]
+![Options](Options.jpg)
 
 * **Order Lookup:** Instant search to fetch specific order details by Order ID.
-![SearchMeathod][SearchMethod.jpg]
+![SearchMeathod](SearchMethod.jpg)
 
 
 * **Branch & Peak Hours:** Performance breakdown across branches, rush times, and best-selling items.
-![peakBranchAndTimes][PeakBranchTime.jpg]
+![peakBranchAndTimes](PeakBranchTime.jpg)
 
 * **Executive Summary:** Overall revenue, order counts, average ticket size, and top payment methods.
 * **Staff Performance:** Counts orders handled by each team member.
