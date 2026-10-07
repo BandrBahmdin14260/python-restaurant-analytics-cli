@@ -19,3 +19,4 @@ It helps track sales revenue, find peak hours, monitor staff activity, and catch
 1. Make sure you have `pandas` installed:
    ```bash
    pip install pandas
+   pip install rich
