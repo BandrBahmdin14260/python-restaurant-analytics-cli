@@ -39,29 +39,7 @@ while True:
 
     match userInput:
         case "1":
-<<<<<<< HEAD
-            print(columns_Data())
-        case "2":
-            print(Summary_Data())
-        case "3":
-            print(PeakTime_Branch())
-        case "4":
-            Order = input("Enter Order Number: ").strip()
-            print(Order_Info(Order))
-        case "5":
-            print(staff_Performance())
-        case "6":
-            print(Days_Report())
-        case "7":
-            print(OrderReport())
-        case "0":
-            print("Bye.. ")
-            break
-        case _:
-            print("\n⚠️ Invalid selection! Please enter a valid number from 0 to 7.")
-            print(Welcome_Message)
-=======
-            console.print(columns_Data())
+             console.print(columns_Data())
         case "2":
             console.print(Summary_Data())
         case "3":
@@ -81,4 +59,3 @@ while True:
         case _:
             console.print("\n[bold red] Invalid selection! Please enter a valid number from 0 to 7.[/bold red]")
             console.print(table)
->>>>>>> cc18c47 (Add UI and colors using Rich)
